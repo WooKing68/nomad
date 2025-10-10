@@ -1,0 +1,37 @@
+{
+  "validCities": [
+    {
+      "id": "1",
+      "name": "서울",
+      "description": "한국의 수도",
+      "budget": "200만원",
+      "region": "수도권",
+      "environment": "코워킹 필수",
+      "season": "가을"
+    },
+    {
+      "id": "2",
+      "name": "부산",
+      "description": "항구도시",
+      "budget": "100~200만원",
+      "region": "경상도",
+      "environment": "카페작업",
+      "season": "여름"
+    },
+    {
+      "id": "3",
+      "name": "제주",
+      "description": "아름다운 섬",
+      "budget": "100~200만원",
+      "region": "제주도",
+      "environment": "자연친화",
+      "season": "봄"
+    }
+  ],
+  "filterOptions": {
+    "budget": ["100만원", "100~200만원", "200만원"],
+    "region": ["전체", "수도권", "경상도", "전라도", "강원도", "제주도", "충청도"],
+    "environment": ["자연친화", "도심선호", "카페작업", "코워킹 필수"],
+    "season": ["봄", "여름", "가을", "겨울"]
+  }
+}
